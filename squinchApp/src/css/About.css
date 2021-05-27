@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.about-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.Aboutthing {
+    background-color: #282c34;
+    color: aliceblue;
+    text-align: left;
+}
+
+#aboutMainTitle {
+    color: aliceblue;
+}
+
+#aboutTitles {
+    color: aliceblue;
+    font-size: xx-large;
+    font-family: 'Ubuntu';
+}
+
+#aboutContent {
+    font-size: larger;
+    font-family: 'Ubuntu';
+    color: aliceblue;
+}
+
+#scott {
+    width: 37.6%;
+    height: auto;
+    margin-top: 2%;
+    margin-right: 1.5%;
+}
+
+#andy {
+    width: 35%;
+    height: auto;
+    margin-top: 2%;
+    margin-left: 1.5%
+}
