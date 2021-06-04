@@ -7,7 +7,7 @@ import SCP_foundation from './images/SCP_Foundation.png';
 import chika from './images/Chika_Sticker.png';
 import './App.css';
 
-import Explore from "./components/Explore";
+import Source from "./components/Explore";
 import TopMenu from "./components/TopMenu";
 import Home from "./components/Home";
 import About from "./components/About";
@@ -44,7 +44,7 @@ class App extends Component {
 					<TopMenu state = {this.state}/>
 					<div>
 						<Route exact path="/" component={Home}/>
-						<Route exact path="/Explore" component={Explore}/>
+						<Route exact path="/Explore" component={Source}/>
 						<Route exact path="/About" component={About}/>
 					</div>
 				</div>
