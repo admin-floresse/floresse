@@ -1,10 +1,6 @@
 import React, { Component } from "react";
 import 'semantic-ui-css/semantic.min.css';
-import { Menu, Header, Icon, Modal, Button, Container } from "semantic-ui-react";
-import { HashRouter, Route } from "react-router-dom";
-
-import SCP_foundation from '../images/SCP_Foundation.png';
-import chika from '../images/Chika_Sticker.png';
+import { Header, Icon, Modal, Button, } from "semantic-ui-react";
 import '../App.css';
 
 class Home extends Component {
@@ -38,7 +34,7 @@ class Home extends Component {
                     <Header id="modalheader" content="PeePeePooPooPopUp"/>
                     <Modal.Content id="content1">
                         <center>
-                            <iframe id="driveListen" width="800" height="500" src="https://app.drive-listen.com"/>
+                            <iframe title="drive-listen" id="driveListen" width="800" height="500" src="https://app.drive-listen.com"/>
                         </center>
                     </Modal.Content>
                     <Modal.Actions id="bottomarea">
@@ -52,7 +48,7 @@ class Home extends Component {
                     <h1 id="welcome">
                         W E L C O M E
                     </h1>
-                    <img id="SCPthing" src={SCP_foundation} className="App-logo" alt="logo" />
+                    <img id="SCPthing" src="images/SCP_Foundation.png" className="App-logo" alt="spinning-logo" />
                     <p>
                         Cindy is a poo poo face
                     </p>
@@ -68,17 +64,9 @@ class Home extends Component {
 
                     <div class="row">
                         <div class="column">
-                            <h2></h2>
                             <button id="peepoobutton" onClick={(event) => this.openModal(event)}>
                                 Useless Button
                             </button>
-                        </div>
-
-                        <div class="column">
-                            <h2></h2>
-                            <a target="_blank" href="https://www.youtube.com/watch?v=-rokG9XS37w">
-                                <img id="chika" src={chika} alt="test image"/>
-                            </a>
                         </div>
                     </div>
                 </header>

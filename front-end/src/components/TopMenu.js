@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import { Button } from "semantic-ui-react";
-import { Menu, Header, Icon, Modal } from "semantic-ui-react";
+import { Menu } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 
 export default class TopMenu extends Component {

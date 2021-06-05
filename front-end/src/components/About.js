@@ -1,10 +1,7 @@
 import React, { Component } from "react";
-import { Button } from "semantic-ui-react";
-import { Menu, Header, Icon, Modal, Container } from "semantic-ui-react";
+import { Container } from "semantic-ui-react";
 
 import "../css/About.css";
-import ANDY from "../images/ANDY.JPEG";
-import SCOTT from "../images/SCOTT.jpg";
 
 export default class About extends Component {
     render() {
@@ -27,8 +24,8 @@ export default class About extends Component {
                             directory using the format below or by using the service_directory_template.
                         </p>
                     </div>
-                    <img id="scott" src={SCOTT}/>
-                    <img id="andy" src={ANDY}/>
+                    <img id="scott" alt="scott" src="images/SCOTT.jpg"/>
+                    <img id="andy" alt="andy" src="images/ANDY.JPEG"/>
                 </Container>
             </header>
             
