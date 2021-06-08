@@ -67,6 +67,7 @@
 }
 
 #peepoobutton {
+  margin-top: 20px;
 	background-color: rgb(92, 92, 92);
 	padding: .5em;
 	-moz-border-radius: 5px;
