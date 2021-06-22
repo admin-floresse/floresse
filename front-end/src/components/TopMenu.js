@@ -23,7 +23,21 @@ export default class TopMenu extends Component {
                         About
                     </button>
                 </Link>
+
+                <Link to={{ pathname: "/"}}>
+                    <button id="TopBarButton">
+                        Products & Pricing
+                    </button>
+                </Link>
+
+                <Link to={{ pathname: "/"}}>
+                    <button id="TopBarButton">
+                        Contact Us
+                    </button>
+                </Link>
             </div>
+
+            
         );
     }
 }
