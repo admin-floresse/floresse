@@ -1,9 +1,7 @@
 import React, { Component } from "react";
-import { Button } from "semantic-ui-react";
-import { Menu, Header, Icon, Modal, Container } from "semantic-ui-react";
+import * as THREE from "three";
 
 //import "../css/Explore.css";
-import * as THREE from "three";
 
 
 class Scene extends Component {
