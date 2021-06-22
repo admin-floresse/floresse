@@ -195,6 +195,7 @@
 }
 
 #andy-pic {
+  border-radius: 100%;
   width: 50%;
   height: auto;
 }
@@ -205,6 +206,7 @@
 }
 
 #scott-pic {
+  border-radius: 100%;
   width: 50%;
   height: auto;
 }
