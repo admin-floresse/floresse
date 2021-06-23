@@ -4,10 +4,7 @@ import { Header, Icon, Modal, Button, } from "semantic-ui-react";
 import '../App.css';
 
 import background_video from '../videos/crop-test.mp4';
-import title_image from '../images/Title.png';
-import andy_pic from '../images/ANDY.JPEG';
-import scott_pic from '../images/SCOTT.jpg';
-;
+
 class Home extends Component {
     constructor(props) {
 		super(props);
@@ -36,7 +33,9 @@ class Home extends Component {
         return (
             <div>
                 <div className="title-section">
-                    <img src={title_image}/>
+                    {/* <img src="images/Title.png" /> */}
+                    <h1>Floresse</h1>
+                    <p>Specializing in web-application, we make state-of-the-art webpages for our clients</p>
                 </div>
                 
                 <div>
@@ -72,7 +71,7 @@ class Home extends Component {
 
                             <div className="andy-container">
                                 <div className="profile-picture">
-                                    <img id="andy-pic" src={andy_pic}/>
+                                    <img id="andy-pic" src="images/ANDY.jpg" />
                                     <div className="profile-description">
                                         <h1 id="name">Andy Wilson</h1>
                                         <p id="profile-description">
@@ -87,7 +86,7 @@ class Home extends Component {
 
                             <div className="scott-container">
                                 <div className="profile-picture">
-                                    <img id="scott-pic" src={scott_pic}/>
+                                    <img id="scott-pic" src="images/SCOTT.jpg" />
                                     <div className="profile-description">
                                         <h1 id="name">Scott Draper</h1>
                                         <p id="profile-description">
