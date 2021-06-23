@@ -33,7 +33,6 @@ class Home extends Component {
         return (
             <div>
                 <div className="title-section">
-                    {/* <img src="images/Title.png" /> */}
                     <h1>Floresse</h1>
                     <p>Specializing in web-application, we make state-of-the-art webpages for our clients</p>
                 </div>
