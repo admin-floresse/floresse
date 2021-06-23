@@ -155,7 +155,7 @@
   left: 0px;
   top: 0px;
   z-index: -1;
-  height: auto;
+  min-width: 100vw;
 }
 
 .video-overlay {
