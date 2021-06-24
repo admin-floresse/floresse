@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(53, 53, 53);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(161, 161, 161);
+}
+
 .title-section {
   display: flex;
   align-items: baseline;
