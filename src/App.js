@@ -1,10 +1,16 @@
-import './App.css';
+// IMPORT MODULES
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
+// IMPORT PAGES
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <div className="App">
-      Floresse
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/" component={Home} />
+      </Switch>
+    </Router>
   );
 }
 
