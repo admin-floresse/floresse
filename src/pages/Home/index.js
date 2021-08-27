@@ -9,7 +9,7 @@ import "./styles.css";
 
 function Home() {
 	return (
-		<div className="main" id="home-main">
+		<div className="main" id="home-main">			
 			<h1>floresse</h1>
 			
 			<h3><TextScramble/> web design</h3>

@@ -11,6 +11,9 @@
 html, body, #root, .main {
   background-color: #20272d; }
 
+::selection {
+  background: #474747; }
+
 .main {
   display: flex;
   align-items: center;

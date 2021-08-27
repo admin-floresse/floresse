@@ -1,7 +1,11 @@
 // IMPORTS
+// ---------------------------------------------- //
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+// ---------------------------------------------- //
+
 
 // CSS RESET
+// ---------------------------------------------- //
 * {
 	color: #fff;
 	font-family: 'Dosis', sans-serif;
@@ -11,9 +15,17 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
-  
+// ---------------------------------------------- //
+
+
+// GLOBAL STYLES
+// ---------------------------------------------- //
 html, body, #root, .main {
 	background-color: #20272d;
+}
+
+::selection {
+	background: #474747;
 }
 
 .main {
@@ -23,3 +35,4 @@ html, body, #root, .main {
 	justify-content: center;
 	height: 100vh;
 }
+// ---------------------------------------------- //
