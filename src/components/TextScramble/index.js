@@ -31,7 +31,7 @@ export default class TextScramble extends Component {
 	changeWord() {
 		let oldWord = this.state.currentWord
 		let newWord = this.state.words[Math.floor(Math.random() * this.state.words.length)]
-		const chars = "~!@#$%^&*()_+`1234567890-=[]\\;',./{}|:\"<>?"
+		const chars = "~!@#$%^&*()_+`1234567890-=[]\\;',./{}|:\"<>?α¤ß£‼Àà♥+Γ€¡Áá♂-δ$?Ââ♀×ε¢¿Ãã♪÷Θ¥Ää♫π₧Çç%µƒÈè©‰ΣÉé®σ´Êê™τËëΦÌìφÍíΩ∟Ïî■±§Ïï▲╚¶Ññ▼/╔†Òò¼╩‡Óó↨½│╦Ôô↑¾┤╠Õõ↓.╡═‹Öö→╢╬›Šš←≡╖╧‘Úú╕╨’Ûû♥≈╣╤“Üü♦║╥”Ùù♣<╗╙«Ýý♠>╝╘»Ÿÿ•≥╜╒‘Žž◘≤╛╓„○┐╫.◙√└╪åÅ♂ⁿ┴┘`Œœ♀¹┬┌&þÞ♪²├Øø♫³─Ææ►┼ñÑ◄π╞ß°╟Ðð▲▼…¦↨∞↑µ¯▬↓Σ→∩←¨☼ª-⌂º"
 		const replaceChar = (origString, replaceChar, index) => {
 			let newStringArray = origString.split("")
 			newStringArray[index] = replaceChar
@@ -56,7 +56,7 @@ export default class TextScramble extends Component {
 				if (j < newWord.length) {          
 			  		transition()       
 				}                      
-		  	}, 200)
+		  	}, 100)
 		}
 
 		// Step 1: Change oldWord letters to chars
@@ -71,7 +71,7 @@ export default class TextScramble extends Component {
 				} else {
 					transition()
 				}             
-		  	}, 200)
+		  	}, 100)
 		}
 
 		scramble();
